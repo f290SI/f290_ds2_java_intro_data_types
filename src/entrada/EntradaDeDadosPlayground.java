@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class EntradaDeDadosPlayground {
     public static void main(String[] args) {
 
+        // Declaração do objeto Scanner para leitura de dados em console.
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o seu nome:");
         // Entrada de dados via Scanner
         String nome = entrada.nextLine();
 
-
-
         System.out.println("Digite o seu ano de nascimento:");
+        // Entrada de dados via Scanner e conversão para o tipo de dados Integer
         Integer ano = entrada.nextInt();
         Integer idade = 2022 - ano;
 
